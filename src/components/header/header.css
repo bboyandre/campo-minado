@@ -1,0 +1,28 @@
+.topbar {
+  padding: 2rem 1.5rem 0;
+}
+
+.brand-block {
+  max-width: 980px;
+  margin: 0 auto;
+  background: rgba(15, 27, 47, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 18px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.35);
+}
+
+.brand-kicker {
+  display: inline-block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #7dd3fc;
+  margin-bottom: 0.35rem;
+}
+
+.brand-block h1 {
+  font-size: clamp(2rem, 3vw, 3rem);
+  font-weight: 800;
+  color: #f8fbff;
+}

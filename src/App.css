@@ -1,0 +1,15 @@
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #08111f 0%, #0f1b2f 100%);
+  color: #e5edf8;
+}
+
+.game-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem 1rem;
+  flex: 1;
+}
