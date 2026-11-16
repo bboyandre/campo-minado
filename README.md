@@ -56,7 +56,3 @@ src/
 ## Testes
 
 Os testes ficam ao lado do código (`*.test.ts` e `*.test.tsx`) e usam Jest 29 com `babel-jest` e `jsdom`. As funções de `game.ts` recebem o gerador aleatório como parâmetro, o que permite testá-las com valores determinísticos.
-
-## Deploy
-
-O projeto é estático. Rode `npm run build` e publique a pasta `dist/` em qualquer host estático, usando Node 24 no ambiente de build.
