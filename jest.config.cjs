@@ -13,7 +13,7 @@ module.exports = {
   verbose: true,
   collectCoverage: true,
   coverageProvider: 'v8',
-  collectCoverageFrom: ['src/components/minefield/**/*.ts'],
+  collectCoverageFrom: ['src/components/minefield/**/*.tsx'],
   coverageThreshold: {
     global: {
       branches: 80,

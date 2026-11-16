@@ -47,12 +47,12 @@ src/
 ├── components/
 │   ├── header/       # cabeçalho
 │   ├── footer/       # rodapé
-│   ├── minefield/    # tabuleiro e regras do jogo
-│   │   └── game.ts   # lógica pura (criação do tabuleiro, contagem, revelação)
+│   ├── minefield/    # tabuleiro, regras e testes
+│   │   └── minefield.test.tsx
 │   └── modal/        # modal de vitória/derrota
 └── test/             # mocks usados pelo Jest
 ```
 
 ## Testes
 
-Os testes ficam ao lado do código (`*.test.ts` e `*.test.tsx`) e usam Jest 29 com `babel-jest` e `jsdom`. As funções de `game.ts` recebem o gerador aleatório como parâmetro, o que permite testá-las com valores determinísticos.
+Os testes ficam ao lado do código (`*.test.ts` e `*.test.tsx`) e usam Jest 29 com `babel-jest` e `jsdom`.  Nos testes do tabuleiro, `Math.random` é mockado para posicionar as minas em lugares conhecidos.
